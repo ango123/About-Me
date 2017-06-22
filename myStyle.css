@@ -10,7 +10,7 @@ background: url(https://s-media-cache-ak0.pinimg.com/originals/5e/6c/e4/5e6ce47f
 	color: black;
 	list-style: none;
 	text-align: center;
-	padding: 30px 0 30px 0;
+	padding: 30px 0 15px 0;
 }
 
 .nav > li{
@@ -26,7 +26,55 @@ background: url(https://s-media-cache-ak0.pinimg.com/originals/5e/6c/e4/5e6ce47f
 .nav > li > a:hover{
 	color: black;
 }
-
-	
-	
 }
+html>
+
+<head>
+<style>
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="Deer.JPG">
+    <img src="Deer.JPG" alt="Deer" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Hanazono.JPG">
+    <img src="Hanazono.JPG" alt="Hanazono" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Hiroshima.JPG">
+    <img src="Hiroshima.JPG" alt="Hiroshima" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+</body>
+</html>
