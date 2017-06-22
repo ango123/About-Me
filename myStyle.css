@@ -1,0 +1,32 @@
+body{
+background: url(https://s-media-cache-ak0.pinimg.com/originals/5e/6c/e4/5e6ce47f24349d7a13bd2d8e69350da5.jpg);
+	margin: 0;
+	padding: 0;
+	font-family:'Arial', serif;
+	font-size: 22px
+}
+.nav{
+	background-color: powderblue;
+	color: black;
+	list-style: none;
+	text-align: center;
+	padding: 30px 0 30px 0;
+}
+
+.nav > li{
+	display: inline-block;
+	padding: 0 25px 0 25px;
+}
+
+.nav > li > a{
+	text-decoration: none;
+	color: white;
+}
+
+.nav > li > a:hover{
+	color: black;
+}
+
+	
+	
+}
